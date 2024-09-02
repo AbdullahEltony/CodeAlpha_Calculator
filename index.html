@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="app__container">
+        <div class="content">
+          <div class="content__wrapper">
+            <!-- SCREEN -->
+            <div class="screen">
+              <div id="currentExp"></div>
+              <div id="currentNumber">0</div>
+            </div>
+            <!-- BUTTONS -->
+            <div id="button-C" class="button" data-key="C">C</div>
+            <div id="button-neg" class="button" data-key="neg">±</div>
+            <div id="button-7" class="button" data-key="7">7</div>
+            <div id="button-8" class="button" data-key="8">8</div>
+            <div id="button-9" class="button" data-key="9">9</div>
+            <div id="button-add" class="button button-operator" data-key="+">+</div>
+            <div id="button-4" class="button" data-key="4">4</div>
+            <div id="button-5" class="button" data-key="5">5</div>
+            <div id="button-6" class="button" data-key="6">6</div>
+            <div id="button-sub" class="button button-operator" data-key="-">-</div>
+            <div id="button-1" class="button" data-key="1">1</div>
+            <div id="button-2" class="button" data-key="2">2</div>
+            <div id="button-3" class="button" data-key="3">3</div>
+            <div id="button-mul" class="button button-operator" data-key="×">×</div>
+            <div id="button-dis" class="button" data-key=".">.</div>
+            <div id="button-0" class="button" data-key="0">0</div>
+            <div id="button-equ" class="button" data-key="=">=</div>
+            <div id="button-dev" class="button button-operator" data-key="÷">÷</div>
+          </div>
+        </div>
+
+        <!-- HISTORY -->
+        <div class="history">
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
