@@ -56,7 +56,7 @@ function equal() {
   let expression = expStack;
   expStack = expStack.replace(/×/g, "*");
   expStack = expStack.replace(/÷/g, "/");
-  currentNumber.innerHTML = eval(expStack).toFixed(5) || "0";
+  currentNumber.innerHTML = eval(expStack) || "0";
   renerHistories(expression);
   inputStack = "";
   expStack = "";
